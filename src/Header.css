@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgb(255, 255, 255);
+}
+.header__logo{
+   height: 25px;
+   object-fit: contain;
+   margin-left: 15px;
+}
+.header__input{
+    display: flex;
+    align-items: center;
+    width: 35%;
+    border: 1px solid rgb(73, 73, 73);
+}
+
+.header__icons{
+    display: flex;
+    text-align: center;
+}
+.header__input > input{
+    flex: 1;
+    /* width: 10px; */
+    border: none;
+}
+.header__inputbutton{
+    width: 50% !important;
+    background-color: #fafafa;
+    border-left: 2px solid lightgrey;
+    color: gray;
+}
+.header__icon{
+    margin-left: 8px;
+}
